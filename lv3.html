@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Academy - Advanced Substation Design Level 3 Certificate</title>
+    <meta property="og:title" content="Engineering Calculations & Design Sizing [Level 3] - Grid Academy">
+    <meta property="og:description" content="Successfully completed advanced substation calculations course instructed by Eng. Ahmed Metwally">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/009268/ffffff?text=Grid+Academy+Level+3">
+    <meta property="og:url" content="https://YOURUSERNAME.github.io/certificate-gridacademy-level3">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,146,104,0.15);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        .badge {
+            background: #009268;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .level-badge {
+            background: #e0f0ec;
+            color: #00634b;
+            padding: 8px 16px;
+            border-radius: 50px;
+            display: inline-block;
+            font-weight: 700;
+            margin-left: 10px;
+            font-size: 14px;
+            border: 1px solid #009268;
+        }
+        
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-size: 28px;
+            line-height: 1.3;
+        }
+        
+        h1 span {
+            color: #009268;
+        }
+        
+        .certificate-meta {
+            background: #f0f9f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid #009268;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .skill-tag {
+            background: #e0f0ec;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 14px;
+            color: #00634b;
+            border: 1px solid #b8dfd0;
+            font-weight: 500;
+        }
+        
+        .post-text {
+            background: #f0f9f6;
+            padding: 25px;
+            border-radius: 12px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            margin: 25px 0;
+            border: 1px solid #b8dfd0;
+            color: #333;
+            line-height: 1.6;
+            user-select: all;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 14px 28px;
+            border-radius: 50px;
+            border: none;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,146,104,0.2);
+        }
+        
+        .btn-linkedin {
+            background: #0077b5;
+            color: white;
+        }
+        
+        .btn-copy {
+            background: #009268;
+            color: white;
+        }
+        
+        .btn-copy:hover {
+            background: #007a56;
+        }
+        
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        
+        .instructor {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px solid #b8dfd0;
+        }
+        
+        .instructor div:first-child {
+            background: #009268 !important;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .copied-message {
+            display: none;
+            background: #009268;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 15px;
+            text-align: center;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .share-text {
+            margin-top: 25px;
+            color: #6c757d;
+            font-size: 14px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+            <span class="badge">✓ Verified Certificate</span>
+            <span class="level-badge">LEVEL 3</span>
+        </div>
+        
+        <h1>Engineering Calculations &<br>Design Sizing <span>[Level 3]</span></h1>
+        
+        <div class="certificate-meta">
+            <strong style="font-size: 18px; color: #009268;">🏆 Successfully Completed</strong><br>
+            <p style="margin-top: 10px; color: #495057;">
+                Issued by: <span style="color: #009268; font-weight: 600;">Grid Academy</span><br>
+                Instructor: <span style="color: #009268; font-weight: 600;">Eng. Ahmed Metwally</span>
+            </p>
+        </div>
+        
+        <div class="skills">
+            <span class="skill-tag">⚡ Breaker & Cable Sizing</span>
+            <span class="skill-tag">⚡ Aux Transformer & Zig-Zag</span>
+            <span class="skill-tag">⚡ CT & VT Fundamentals</span>
+            <span class="skill-tag">⚡ CT & VT Adequacy</span>
+            <span class="skill-tag">⚡ Battery & Charger Sizing</span>
+        </div>
+        
+        <h3 style="margin-bottom: 10px; color: #009268;">📋 Ready-to-share LinkedIn post:</h3>
+        
+        <div class="post-text" id="linkedinPost">
+I’m thrilled to share that I’ve successfully completed the Engineering Calculations & Design Sizing - Level 3 course, instructed by Eng. Ahmed Metwally.
+
+Throughout the program, I strengthened practical skills in:
+• Breaker & Cable Sizing (IEC-based)
+• Auxiliary Transformer & Zig-Zag Sizing
+• CT & VT Fundamentals + Adequacy
+• Battery & Charger Sizing
+
+A thank-you to @Grid Academy for the training and support!
+
+#GridAcademy #SubstationDesign #PowerSystems #ProtectionEngineering #ProfessionalDevelopment
+        </div>
+        
+        <div class="button-group">
+            <button class="btn btn-copy" onclick="copyPost()" id="copyBtn">
+                📋 Copy Post Text
+            </button>
+            
+            <a href="https://www.linkedin.com/feed/?shareActive=true" target="_blank" class="btn btn-linkedin">
+                💼 Open LinkedIn (then paste)
+            </a>
+        </div>
+        
+        <div id="copiedMessage" class="copied-message">
+            ✅ Post copied! Now click LinkedIn and press Ctrl+V (Cmd+V on Mac)
+        </div>
+        
+        <div class="instructor">
+            <div>AM</div>
+            <div>
+                <strong>Eng. Ahmed Metwally</strong><br>
+                <span style="color: #6c757d;">Lead Instructor, Grid Academy</span>
+            </div>
+        </div>
+        
+        <div class="share-text">
+            🔗 Share this post to let others know your achievement
+        </div>
+    </div>
+    
+    <script>
+        function copyPost() {
+            const postText = document.getElementById('linkedinPost').innerText;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(postText).then(function() {
+                // Show success message
+                const message = document.getElementById('copiedMessage');
+                message.style.display = 'block';
+                
+                // Change button text temporarily
+                const btn = document.getElementById('copyBtn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '✅ Copied!';
+                btn.classList.add('btn-success');
+                
+                // Hide message after 3 seconds
+                setTimeout(function() {
+                    message.style.display = 'none';
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('btn-success');
+                }, 3000);
+            }, function(err) {
+                alert('Please select the text above and press Ctrl+C (Cmd+C on Mac)');
+            });
+        }
+        
+        // Auto-select text when clicked
+        document.getElementById('linkedinPost').addEventListener('click', function() {
+            const range = document.createRange();
+            const selection = window.getSelection();
+            range.selectNodeContents(this);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        });
+    </script>
+</body>
+</html>
